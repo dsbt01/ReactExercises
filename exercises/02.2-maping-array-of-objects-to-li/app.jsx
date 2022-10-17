@@ -9,7 +9,7 @@ const planets = ["Mars", "Venus", "Jupiter", "Earth", "Saturn", "Neptune"];
  */
 const mappingFunction = (item, index) => {
 	// return something in JSX.
-	return <li class="list-group-item">{item}</li>;
+	return <li className="list-group-item">{item}</li>;
 };
 
 const planetsInHTML = planets.map(mappingFunction);
